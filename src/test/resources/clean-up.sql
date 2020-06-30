@@ -1,0 +1,3 @@
+DELETE FROM employee;
+
+ALTER TABLE employee ALTER COLUMN id RESTART WITH 1;
